@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>acceleratedtext.opennlp</groupId>
 	<artifactId>ccg</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
@@ -12,9 +12,9 @@
 
 
 	<scm>
-		<developerConnection>scm:git:git@github.com:tokenmill/openccg.git</developerConnection>
-	  <tag>ccg-1.0.0</tag>
-  </scm>
+		<developerConnection>scm:git:https://github.com:tokenmill/openccg.git</developerConnection>
+		<tag>ccg-1.0.0</tag>
+	</scm>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
