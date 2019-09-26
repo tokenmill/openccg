@@ -1,19 +1,43 @@
-    <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-      <modelVersion>4.0.0</modelVersion>
-      <groupId>opennlp</groupId>
-      <artifactId>ccg</artifactId>
-      <version>0.10.0</version>
-      <packaging>pom</packaging>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>acceleratedtext.opennlp</groupId>
+	<artifactId>ccg</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
-      <modules>
-          <module>src/</module>
-      </modules>
-     
-      <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-      </properties>
-      
-    </project>
+	<modules>
+		<module>src/</module>
+	</modules>
+
+
+	<scm>
+		<developerConnection>scm:git:https://github.com/tokenmill/openccg.git</developerConnection>
+	</scm>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+			</plugin>
+		</plugins>
+	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>clojars</id>
+			<name>Clojars repository</name>
+			<url>https://clojars.org/repo</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
+
+</project>
