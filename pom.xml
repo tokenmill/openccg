@@ -13,7 +13,7 @@
 	<scm>
 		<url>https://github.com/tokenmill/openccg.git</url>
 		<connection>scm:git:git://github.com/tokenmill/openccg.git </connection>
-		<developerConnection>scm:git:ssh://git@github.com/tokenmill/openccg.git</developerConnection>
+		<developerConnection>scm:git:ssh://zmedelis@github.com/tokenmill/openccg.git</developerConnection>
 		<tag>openccg-1.0.0</tag>
 	</scm>
 
