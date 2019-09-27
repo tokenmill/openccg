@@ -13,7 +13,6 @@
 	<scm>
 		<url>https://github.com/tokenmill/openccg.git</url>
 		<connection>scm:git:git://github.com/tokenmill/openccg.git </connection>
-		<developerConnection>scm:git:ssh://zmedelis@github.com/tokenmill/openccg.git</developerConnection>
 		<tag>openccg-1.0.0</tag>
 	</scm>
 
@@ -28,7 +27,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.5.3</version>
+				<version>3.6.2</version>
 			</plugin>
 		</plugins>
 	</build>
@@ -36,9 +35,7 @@
 	<distributionManagement>
 		<repository>
 			<id>clojars</id>
-			<name>Clojars repository</name>
-			<url>https://clojars.org/repo</url>
-			<layout>default</layout>
+			<url>https://repo.clojars.org</url>
 		</repository>
 	</distributionManagement>
 
