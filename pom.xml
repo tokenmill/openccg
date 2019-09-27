@@ -40,6 +40,7 @@
         <configuration>
           <additionalOptions>
             <additionalOption>-Xdoclint:none</additionalOption>
+            <excludePackageNames>target.*</excludePackageNames>
           </additionalOptions>
         </configuration>
       </plugin>
