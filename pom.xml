@@ -44,7 +44,9 @@
               <goal>jar</goal>
             </goals>
             <configuration>
-              <excludePackageNames>target.*</excludePackageNames>
+                <additionalOptions>
+                    <additionalOption>-Xdoclint:none</additionalOption>
+                </additionalOptions>
             </configuration>
           </execution>
         </executions>
