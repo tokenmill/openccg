@@ -1,20 +1,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-	    <modelVersion>4.0.0</modelVersion>
-	    <groupId>acceleratedtext</groupId>
-	    <artifactId>openccg</artifactId>
-	    <version>0.10.4</version>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>acceleratedtext</groupId>
+	<artifactId>openccg</artifactId>
+	<version>0.10.6</version>
 
-      <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-          <project.build.gen>${project.build.directory}/generated-sources</project.build.gen>
-      </properties>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.gen>${project.build.directory}/generated-sources</project.build.gen>
+	</properties>
 
-      <dependencies>
+	<dependencies>
 
-        <dependency>
+		<dependency>
           <groupId>jdom</groupId>
           <artifactId>jdom</artifactId>
           <version>1.1</version>

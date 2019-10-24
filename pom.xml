@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>acceleratedtext</groupId>
   <artifactId>openccg-parent</artifactId>
-  <version>0.10.4</version>
+  <version>0.10.6</version>
   <packaging>pom</packaging>
 
   <modules>
@@ -14,7 +14,7 @@
     <url>https://github.com/tokenmill/openccg.git</url>
     <connection>scm:git:https://github.com/tokenmill/openccg.git</connection>
     <developerConnection>scm:git:https://github.com/tokenmill/openccg.git</developerConnection>
-    <tag>openccg-0.10.1</tag>
+    <tag>openccg-0.10.6</tag>
   </scm>
 
   <properties>
